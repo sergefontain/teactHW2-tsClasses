@@ -5,7 +5,7 @@ type Props = {
     id: string
 }
 
-export default class StatsCounter extends React.Component {
+export default class StatsCounter extends React.Component<Props> {
     constructor(props: Props) {
         super(props)
     }
